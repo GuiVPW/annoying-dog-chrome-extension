@@ -34,6 +34,9 @@ Because 49 - 36 = 13/2 = 6.5 big dogs + 36 = 42.5 small dogs.
 6. Select the folder you cloned in **step 2**.
 7. Enjoy :).
 
+Imgur example:
+<img src="./docs/example.png"/>
+
 ----
 
 Made by [Guilherme Vieira](https://github.com/GuiVPW) ❤️
