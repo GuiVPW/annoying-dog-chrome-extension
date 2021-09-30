@@ -9,9 +9,13 @@ function updateImages() {
 
 	images = document.querySelectorAll("img")
 
-	images.forEach(function (image) {
-		image.src = imageLinks[Math.floor(Math.random() * imageLinks.length)]
+	images.forEach(image => {
+		if (!imageLinks.includes(image.src)) {
+			image.src = imageLinks[Math.floor(Math.random() * imageLinks.length)]
+		}
 	})
 }
 
-updateImages()
+setInterval(() => {
+	updateImages()
+}, 2000)
