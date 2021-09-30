@@ -5,7 +5,7 @@ This is an extension that replaces all the images in your Chrome with pictures a
 
 If you don't have anything better to do, <s>like me,</s> fell free to install it in your chrome extensions.
 
-----
+<br />
 
 ## ❓ FAQ
 
