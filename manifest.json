@@ -5,7 +5,10 @@
 	"version": "1.0.1",
 	"manifest_version": 3,
 	"icons": {
-		"128": "128.png"
+		"32": "icons/32icon.png",
+		"64": "icons/64icon.png",
+		"96": "icons/96icon.png",
+		"128": "icons/128icon.png"
 	},
 	"content_scripts": [
 		{
