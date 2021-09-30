@@ -3,7 +3,7 @@
 ## 🤦 What is this??
 This is an extension that replaces all the images in your Chrome with pictures and GIFs of Toby Fox's Annoying Dog.
 
-If you don't have anything better to do, <s>like me,</s> fell free to install it in your chrome extensions.
+If you don't have anything better to do, <s>like me,</s> feel free to install it in your chrome extensions.
 
 <br />
 
