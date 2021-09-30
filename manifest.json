@@ -2,5 +2,8 @@
 	"name": "Annoying Dog Image Replacer",
 	"description": "Replace all the images to Toby Fox annoying dog, from Undertale.",
 	"version": "1.0",
-	"manifest_version": 3
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "background.js"
+	}
 }
