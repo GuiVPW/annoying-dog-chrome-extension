@@ -1,20 +1,31 @@
 {
+	"manifest_version": 3,
 	"name": "Annoying Dog Image Replacer",
 	"short_name": "Dog Replacer",
 	"description": "Replace all the images to Toby Fox annoying dog from Undertale.",
 	"version": "1.0.1",
-	"manifest_version": 3,
+	"author": "Guilherme Vieira de Paiva",
 	"icons": {
+		"16": "icons/16icon.png",
+		"24": "icons/24icon.png",
 		"32": "icons/32icon.png",
+		"48": "icons/48icon.png",
 		"64": "icons/64icon.png",
 		"96": "icons/96icon.png",
 		"128": "icons/128icon.png"
+	},
+	"background": {
+		"service_worker": "scripts/background.js"
+	},
+	"action": {
+		"default_title": "Believe me, there is nothing to see here...",
+		"default_popup": "views/popup.html"
 	},
 	"content_scripts": [
 		{
 			"matches": ["https://*/*", "http://*/*"],
 			"run_at": "document_end",
-			"js": ["content-script.js"]
+			"js": ["scripts/content-script.js"]
 		}
 	]
 }
